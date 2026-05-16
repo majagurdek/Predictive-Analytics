@@ -1,4 +1,4 @@
-# London Santander Cycle Hires — Forecasting Project
+# London Santander Cycle Hires. Forecasting Project
 
 ## Data Source
 https://data.london.gov.uk/dataset/number-of-bicycle-hires-2r84d/
