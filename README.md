@@ -1,7 +1,7 @@
 # London Santander Cycle Hires — Forecasting Project
 
 ## Data Source
-[TfL Santander Cycle Hires — London Datastore](https://data.london.gov.uk/dataset/number-of-bicycle-hires)
+https://data.london.gov.uk/dataset/number-of-bicycle-hires-2r84d/
 
 ## Report
 https://docs.google.com/document/d/1T7PlaxUfVTYmcc0TDWavtk7tDxY5Smuk7uvqlfOLmYA/edit?usp=sharing
