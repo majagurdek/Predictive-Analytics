@@ -43,4 +43,16 @@ print(accuracy(ets_fc_raw, test_raw))
 
 cat("\n=== ETS MODEL (log) ===\n")
 print(ets_fit_log)
-    
+
+# ---- ETS residual diagnostics ----
+
+# Log version (the one you discuss in the paper)
+cat("\n=== ETS RESIDUAL DIAGNOSTICS (log) ===\n")
+checkresiduals(ets_fit_log)        # prints Ljung-Box + plots
+lb_ets_log <- checkresiduals(ets_fit_log, plot = FALSE)
+print(lb_ets_log)                  # statistic, df, p-value on their own
+
+# Raw version
+cat("\n=== ETS RESIDUAL DIAGNOSTICS (raw) ===\n")
+lb_ets_raw <- checkresiduals(ets_fit, plot = FALSE)
+print(lb_ets_raw)
